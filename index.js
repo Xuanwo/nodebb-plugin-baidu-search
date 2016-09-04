@@ -3,7 +3,7 @@
 var nconf = module.parent.require('nconf');
 
 function transformDomain(domain) {
-    return domain.split("/").reverse[0]
+    return domain.split("/").reverse()[0]
 }
 
 function searchURL(req) {
