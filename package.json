@@ -1,0 +1,27 @@
+{
+    "name": "nodebb-plugin-baidu-search",
+    "version": "0.0.1",
+    "description": "Redirect search queries to Baidu.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Xuanwo/nodebb-plugin-baidu-search.git"
+    },
+    "keywords": [
+        "nodebb",
+        "baidu",
+        "search"
+    ],
+    "author": "Xuanwo",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Xuanwo/nodebb-plugin-baidu-search/issues"
+    },
+    "homepage": "https://github.com/Xuanwo/nodebb-plugin-baidu-search#readme",
+    "nbbpm": {
+        "compatibility": "^1.0.0"
+    }
+}

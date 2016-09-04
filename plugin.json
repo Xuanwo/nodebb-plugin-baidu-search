@@ -1,0 +1,11 @@
+{
+	"id": "nodebb-plugin-baidu-search",
+	"name": "Baidu Search",
+	"description": "Redirect search queries to Baidu.",
+	"url": "https://github.com/Xuanwo/nodebb-plugin-baidu-search",
+	"library": "./index.js",
+	"hooks": [
+		{"hook": "static:app.load", "method": "init"},
+		{"hook": "filter:search.query", "method": "dummy"}
+	]
+}
